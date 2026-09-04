@@ -4,6 +4,8 @@ O **ZDBR Virtual Garage** é um sistema de armazenamento definitivo, inteligente
 
 Qualquer veículo que herde das classes nativas `CarScript`, `Boat` ou `Helicopter` é automaticamente identificado, rastreado e armazenado pelo sistema.
 
+![Interface do VirtualGarage](images/virtualgarage_083715.png)
+
 ---
 
 ## ✨ Features Principais
@@ -18,6 +20,8 @@ Qualquer veículo que herde das classes nativas `CarScript`, `Boat` ou `Helicopt
   * 🎒 Slots Livres e Itens Salvos no Porta-Malas
 * **Salva Tudo:** O sistema varre todos os *attachments* (peças, portas, rodas) e varre recursivamente todo o *cargo* (loot dentro de mochilas dentro do porta-malas), mantendo quantidade, líquidos e saúde de cada item.
 
+![Interface do VirtualGarage](images/virtualgarage_083741.png)
+
 ---
 
 ## 🧠 Heurística de Interface e Categorização
@@ -28,6 +32,9 @@ O menu principal possui um sistema de *Bucketing* que organiza seus veículos na
 2. 🟠 **Seus Veículos Perto (Status 2):** Seus veículos fora da garagem, dentro de um raio de interação.
 3. 🔴 **Veículos Perdidos (Status 3):** Seus veículos que estão espalhados pelo mapa (rastreados globalmente por um radar de 1000m).
 4. 🟢 **Guardados (Status 0):** Veículos armazenados em segurança no banco de dados.
+
+![Interface do VirtualGarage](images/virtualgarage_083916.png)
+![Interface do VirtualGarage](images/virtualgarage_083731.png)
 
 ---
 
@@ -41,6 +48,7 @@ O painel de Mapa transforma o mod em um verdadeiro GPS automotivo.
   * 🚗 **Carros/Caminhões:** São teletransportados com segurança para o seu lado (com checagem de colisão `IsBoxColliding`).
   * 🚁 **Aeronaves e Embarcações:** Por possuírem hitboxes colossais, o botão de resgate se transforma no modo "Guardar Remoto", sugando o veículo do mundo direto para sua garagem virtual para que você o retire em um espaço seguro.
 
+![Interface do VirtualGarage](images/virtualgarage_083951.png)
 ---
 
 ## 🛡️ Painel Administrativo de Controle
@@ -54,6 +62,8 @@ Sistema *In-Game* acionado por tecla de atalho (`UAVirtualGarageAdminToggle`), e
   * Ative/desative a flag de Seguro e reparo automático de Saúde do veículo selecionado.
   * Edite datas de início e expiração de apólices diretamente via *EditBox* com validação de formato.
   * Apague um veículo permanentemente com um clique.
+
+![Interface do VirtualGarage](images/virtualgarage_085809.png)
 
 ---
 
