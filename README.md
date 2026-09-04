@@ -1,5 +1,7 @@
 # 🚘 Garagem Virtual
 
+![Interface do VirtualGarage](images/banner.png)
+
 O **ZDBR Virtual Garage** é um sistema de armazenamento definitivo, inteligente e universal para servidores de DayZ. Ele contorna as limitações de física e herança do motor Enfusion para oferecer suporte total a **carros, caminhões, barcos, helicópteros, aviões, quadriciclos e bicicletas**
 
 Qualquer veículo que herde das classes nativas `CarScript`, `Boat` ou `Helicopter` é automaticamente identificado, rastreado e armazenado pelo sistema.
