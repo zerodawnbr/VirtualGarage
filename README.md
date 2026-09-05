@@ -64,8 +64,12 @@ Sistema *In-Game* acionado por tecla de atalho (`UAVirtualGarageAdminToggle`), e
   * Ative/desative a flag de Seguro e reparo automático de Saúde do veículo selecionado.
   * Edite datas de início e expiração de apólices diretamente via *EditBox* com validação de formato.
   * Apague um veículo permanentemente com um clique.
+* **Mapa:** Localize os veiculos de cada jogador.
+  * Teleporte até o veículo
+  * Conserte o veículo selecionado. Estragou a bateria, esta sem porta ou pneu, use essa ferramenta para reparar.
 
-![Interface do VirtualGarage](images/virtualgarage_085809.png)
+
+![Interface do VirtualGarage](images/virtualgarage_093040.png)
 
 ---
 
